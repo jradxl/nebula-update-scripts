@@ -7,7 +7,7 @@
 ## pipx install lastversion
 ## then add PATH
 
-latest_nebula=$(lastversion https://github.com/slackhq/nebula)
+latest_nebula=$(/$HOME/.local/bin/lastversion https://github.com/slackhq/nebula)
 echo "Latest Nebula is: ${latest_nebula}"
 if command -v nebula > /dev/null 2>&1 ; then
     current_nebula=$(nebula -version )
