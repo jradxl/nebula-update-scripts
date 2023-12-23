@@ -9,7 +9,7 @@ Installs both nebula and nebula-cert to /usr/local/bin
 
 Required Dependencies:\
 PIPX, # apt install pipx\
-LASTVESION, # pipx install lastversion
+LASTVERSION, # pipx install lastversion
 
 December 2023
 
