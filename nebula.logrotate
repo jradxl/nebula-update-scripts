@@ -1,0 +1,12 @@
+#Test with this: logrotate -fv ./nebula.logrotate
+#Put this file in /etc/logrotate.d/
+
+/var/log/nebula.log {
+    daily
+    size 1M
+    su root root
+    rotate -1
+    postrotate
+       systemctl restart nebula
+    endscript
+}
