@@ -22,6 +22,15 @@ Place into: /etc/logrotate.d
 ## nebula.service
 Place into: /etc/systemd/system
 
+## make-nodes.sh
+Will make key pairs, named as per node entries in the script.\
+Will not overwrite if already exsits.\
+TODO stop asking for passphrase on each node.
+
+## make-dist.sh
+Creates a TAR achive of all files for easy deployment (via SFTP perhaps)\
+I create config.yaml files as config-node1.yaml, config-node2.yaml etc etc...\
+and then rename on actual node, deleting the TAR and unnecessary files afterwards.
 
 ## References:
 https://www.baeldung.com/linux/redirect-systemd-output-to-file\
