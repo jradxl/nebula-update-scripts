@@ -33,9 +33,10 @@ I create config.yaml files as config-node1.yaml, config-node2.yaml etc etc...\
 and then rename on actual node, deleting the TAR and unnecessary files afterwards.
 
 ## References:
-https://www.baeldung.com/linux/redirect-systemd-output-to-file\
-https://antofthy.gitlab.io/software/logrotate_one.sh.txt\
-https://betterstack.com/community/guides/logging/how-to-manage-log-files-with-logrotate-on-ub>
+https://www.baeldung.com/linux/redirect-systemd-output-to-file \
+https://antofthy.gitlab.io/software/logrotate_one.sh.txt \
+https://betterstack.com/community/guides/logging/how-to-manage-log-files-with-logrotate-on-ubuntu-20-04
+
 
 
 December 2023
